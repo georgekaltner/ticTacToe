@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		926CBA381A97FD5000553519 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926CBA371A97FD5000553519 /* main.cpp */; };
 		926CBA3A1A97FD5000553519 /* ticTacToe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 926CBA391A97FD5000553519 /* ticTacToe.1 */; };
+		928FBE981AA7A5FD004A278D /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 928FBE961AA7A5FD004A278D /* board.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		926CBA341A97FD5000553519 /* ticTacToe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ticTacToe; sourceTree = BUILT_PRODUCTS_DIR; };
 		926CBA371A97FD5000553519 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		926CBA391A97FD5000553519 /* ticTacToe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ticTacToe.1; sourceTree = "<group>"; };
+		928FBE961AA7A5FD004A278D /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
+		928FBE971AA7A5FD004A278D /* board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				926CBA371A97FD5000553519 /* main.cpp */,
+				928FBE961AA7A5FD004A278D /* board.cpp */,
+				928FBE971AA7A5FD004A278D /* board.h */,
 				926CBA391A97FD5000553519 /* ticTacToe.1 */,
 			);
 			path = ticTacToe;
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928FBE981AA7A5FD004A278D /* board.cpp in Sources */,
 				926CBA381A97FD5000553519 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +233,7 @@
 				926CBA3F1A97FD5000553519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
